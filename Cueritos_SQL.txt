@@ -1,0 +1,80 @@
+Marcos Emanuel Méndez Ortega      |
+0905-23-5324                      |
+-----------------------------------
+EJERCICIOS|
+-----------
+
+/*1.*/
+/*SELECT * FROM db_universidad.personajes;*/
+
+/*2.*/
+/*Select *From personajes
+where afiliacion = 'Alianza Rebelde';*/
+
+/*3.*/
+/*Select *From personajes
+where edad>=100;*/
+
+/*4.*/
+/*Select *From personajes
+order by altura desc;*/
+
+/*5.*/
+/*set SQL_SAFE_UPDATES=0;
+Update personajes set fuerza_sable = 9 where nombre = 'Luke Skywalker;*/
+
+/*6.*/
+/*delete from personajes
+where nombre = Darth Vader;*/
+
+/*7.*/
+/*Insert into personajes 
+values (21, 'Darth Maul', 'Zabrak', 'Orden Sith', 52, '1959-06-06', 1.78, 77.00, 10)*/
+
+/*8.*/
+/*Select *From personajes
+where especie ='Humano' and afiliacion = 'Alianza Rebelde';*/
+
+/*9.*/
+/*SELECT afiliacion, COUNT(*) as total_personajes FROM personajes GROUP BY afiliacion;*/
+
+/*10.*/
+/*select sum(edad) from personajes;*/
+
+/*11.*/
+/*select * from personajes
+where year(fecha_nacimiento) > 1970;*/
+
+/*12.*/
+/*Update personajes set peso = 1400.00 where id = 17;*/
+
+/*13.*/
+/*delete from personajes
+where afiliacion = 'Cartel Hutt';*/
+
+/*14.*/
+/*Select *From personajes
+order by fecha_nacimiento;*/
+
+/*15.*/
+/*select avg(altura) from personajes
+where especie = 'Humano';*/
+
+/*16.*/
+/*select *from personajes
+where nombre like 'A%';*/
+
+/*17.*/
+/*SELECT especie, COUNT(*) as total_personajes FROM personajes GROUP BY especie;*/
+
+/*18.*/
+/*set SQL_SAFE_UPDATES=0;
+Update personajes set afiliacion ='Imperio Galáctico'  where nombre = 'Anakin Skywalker';*/
+
+/*19.*/
+/*delete from personajes
+where fuerza_sable < 5;*/
+
+/*20*/
+/*select * from personajes
+where edad between 30 and 50*/
